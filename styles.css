@@ -274,7 +274,7 @@ img {
   font-weight: 600;
   display: inline-block;
   margin-right: 1rem;
-  transition: all 300ms ease-in-out;
+  transition: all 300ms linear;
 }
 
 .hero .btn-group .btn:first-child {
@@ -345,6 +345,7 @@ img {
 .section {
   margin-top: 5rem;
   padding: 8rem 0;
+  overflow-x: hidden;
 }
 
 .about-center {

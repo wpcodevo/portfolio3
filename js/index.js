@@ -68,3 +68,19 @@ links.forEach(link => {
     navContainer.style.height = "0";
   });
 });
+
+gsap.from(".logo", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
+gsap.from(".hamburger", { opacity: 0, duration: 1, delay: 1, x: 20 });
+gsap.from(".hero h1", { opacity: 0, duration: 1, delay: 1.5, y: -100 });
+gsap.from(".hero p", { opacity: 0, duration: 1, delay: 2, x: -100 });
+gsap.from(".hero .btn1", { opacity: 0, duration: 1, delay: 2.5, x: -20 });
+gsap.from(".hero .btn2", { opacity: 0, duration: 1, delay: 2.5, x: 20 });
+gsap.from(".nav-item", {
+  opacity: 0,
+  duration: 1,
+  delay: 1.2,
+  y: 30,
+  stagger: 0.2,
+});
+
+AOS.init();

@@ -8,6 +8,8 @@
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   <!-- Glidejs -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css" />
@@ -72,8 +74,8 @@
         professional touch.
       </p>
       <div class="btn-group">
-        <a href="" class="btn">CONTACT US</a>
-        <a href="" class="btn">HIRE US</a>
+        <a href="" class="btn btn1">CONTACT US</a>
+        <a href="" class="btn btn2">HIRE US</a>
       </div>
     </div>
   </header>
@@ -81,7 +83,7 @@
   <!-- About Section -->
   <section class="section about" id="about">
     <div class="about-center container">
-      <div class="left">
+      <div class="left" data-aos="fade-right" data-aos-duration="2000">
         <div class="subtitle">Warm welcome!</div>
         <h2 class="title">About John</h2>
         <p>
@@ -110,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="right">
+      <div class="right" data-aos="fade-left" data-aos-duration="2000">
         <img src="./images/profile1.jpg" alt="" />
       </div>
     </div>
@@ -210,7 +212,7 @@
       </div>
 
       <div class="portfolio-container">
-        <div class="single">
+        <div class="single" data-aos="fade-down" data-aos-duration="2000">
           <img src="./images/work1.jpg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -223,7 +225,7 @@
           </div>
         </div>
 
-        <div class="single">
+        <div class="single" data-aos="fade-right" data-aos-duration="2000">
           <img src="./images/work2.jpg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -236,7 +238,7 @@
           </div>
         </div>
 
-        <div class="single">
+        <div class="single" data-aos="fade-left" data-aos-duration="2000">
           <img src="./images/work3.jpg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -249,7 +251,7 @@
           </div>
         </div>
 
-        <div class="single">
+        <div class="single" data-aos="flip-up" data-aos-duration="2000">
           <img src="./images/work4.jpg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -262,7 +264,7 @@
           </div>
         </div>
 
-        <div class="single">
+        <div class="single" data-aos="flip-right" data-aos-duration="2000">
           <img src="./images/work5.jpg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -275,7 +277,7 @@
           </div>
         </div>
 
-        <div class="single">
+        <div class="single" data-aos="flip-up" data-aos-duration="2000">
           <img src="./images/work6.jpg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -461,7 +463,7 @@
   <!-- Contact -->
   <section class="section contact" id="contact">
     <div class="contact-center container">
-      <div class="left">
+      <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
         <h2>Contact Us</h2>
         <p>
           Send your requirement using the form & our support team will get
@@ -486,7 +488,7 @@
         </div>
       </div>
 
-      <div class="right">
+      <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
         <form class="form">
           <div>
             <input type="text" placeholder="First Name" />
@@ -503,7 +505,10 @@
   <footer>
     <p>&copy; Jurado Template. 2020 All right reserved!</p>
   </footer>
-
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <!-- Glidejs -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
   <!-- Custom Script -->
